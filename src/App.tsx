@@ -1,22 +1,7 @@
-import Button from "./components/Button";
-import DismissableAlert from "./components/DismissableAlert";
-import { useState } from "react";
-
+import Card from "./components/Card";
+import "./App.css";
 function App() {
-  const [alertVisible, setAlertVisible] = useState(false);
-
-  return (
-    <div>
-      {alertVisible && (
-        <DismissableAlert onClose={() => setAlertVisible(false)}>
-          my Alert
-        </DismissableAlert>
-      )}
-      <Button color="dark" onClick={() => setAlertVisible(!alertVisible)}>
-        Toggle Alert
-      </Button>
-    </div>
-  );
+  return <Card></Card>;
 }
 
 export default App;
