@@ -1,15 +1,8 @@
-import ListGroup from "./components/ListGroup";
+import Alert from "./components/Alert.";
 function App() {
-  const items = [
-    "New item",
-    "Another item",
-    "A third item",
-    "A fourth item",
-    "And a fifth one",
-  ];
   return (
     <div>
-      <ListGroup items={items} heading="Butter" />
+      <Alert>This is an alert</Alert>
     </div>
   );
 }
