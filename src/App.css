@@ -6,8 +6,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  /*background-color: aliceblue;*/
   color: white;
-  background: radial-gradient(circle, #00ff00 -100%, #003300 30%, #000000); 
+  /*background-color: aliceblue;
+
+  background: radial-gradient(circle, #00ff00 -100%, #003300 30%, #000000);*/
   cursor: url('./assets/png/cursors.png') 16 16, auto;
 }
