@@ -9,39 +9,39 @@ interface Props {
 
 const navigationItems: Props[] = [
   {
-    iconUrl: "react-app/src/assets/svg/home_icon.svg",
+    iconUrl: "/react-app/public/home_icon.svg", // Absoluter Pfad ab /public
     description: "Home",
-    link: "./App",
+    link: "/",
   },
   {
-    iconUrl: "react-app/src/assets/svg/business_icon.svg",
+    iconUrl: "/react-app/public/business_icon.svg",
     description: "Experience",
-    link: "./App",
+    link: "/react-app/pages/certificate-page/ExperiencePage",
   },
   {
-    iconUrl: "react-app/src/assets/svg/folder_icon.svg",
+    iconUrl: "/react-app/public/folder_icon.svg",
     description: "Projects",
-    link: "./App",
+    link: "/react-app/pages/project-page/ProjectPage",
   },
   {
-    iconUrl: "react-app/src/assets/svg/gear_icon.svg",
+    iconUrl: "/react-app/public/gear_icon.svg",
     description: "Technologies",
-    link: "./App",
+    link: "/react-app/pages/tech-page/TechPage",
   },
   {
-    iconUrl: "react-app/src/assets/svg/medal_icon.svg",
+    iconUrl: "/react-app/public/medal_icon.svg",
     description: "Certificates",
-    link: "./App",
+    link: "/react-app/pages/certificate-page/CertificatePage",
   },
   {
-    iconUrl: "react-app/src/assets/svg/tennis_icon.svg",
+    iconUrl: "/react-app/public/business_icon.svg",
     description: "Leizure",
-    link: "./App",
+    link: "/react-app/pages/leizure-page/LeizurePage",
   },
   {
-    iconUrl: "react-app/src/assets/svg/email_icon.svg",
+    iconUrl: "/react-app/public/email_icon.svg",
     description: "Contact",
-    link: "./App",
+    link: "/react-app/pages/contact-page/ContactPage",
   },
 ];
 
