@@ -55,10 +55,12 @@ function NavigationBar() {
   return (
     <nav className="navigation-bar">
       {navigationItems.map((item, index) => (
-        <div key={index} className="nav-item">
-          <img src={item.iconUrl} alt={item.description} />
-          <span>{item.description}</span>
-        </div>
+        <Link key={index} to={item.link} className="nav-link">
+          <div className="nav-item">
+            <img src={item.iconUrl} alt={item.description} />
+            <span className="nav-text">{item.description}</span>
+          </div>
+        </Link>
       ))}
     </nav>
   );
