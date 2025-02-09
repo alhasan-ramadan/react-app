@@ -1,5 +1,5 @@
 import profilePic from "../assets/hoodie_avatar_cut.svg";
-import "../Card.css";
+import "../style/Card.css";
 
 function Card() {
   return (

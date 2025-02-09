@@ -16,12 +16,14 @@
   height: 100px;
   border-radius: 50%;
   margin: 0 auto 20px;
+  border: 3px solid hwb(0 0% 100%);
 }
 
 .card .card-title {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   color: rgb(255, 255, 255);
+  
 }
 
 .card .card-text {
