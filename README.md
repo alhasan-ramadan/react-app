@@ -4,8 +4,8 @@ This repository documents my journey of learning the basics of React by followin
 
 ## 📌 Tutorial Information
 
-- **Source:** [React Tutorial for Beginners](https://www.youtube.com/watch?v=SqcY0GlETPk&t=365s)
-- **Instructor:** [Programming with Mosh](https://www.youtube.com/@programmingwithmosh)
+- **Source:** [YouTube Tutorial Name](#)
+- **Instructor:** [Instructor Name](#)
 - **Topics Covered:**
   - Setting up a React project
   - JSX & Components
@@ -19,28 +19,8 @@ This repository documents my journey of learning the basics of React by followin
 To run the project locally, follow these steps:
 
 ```sh
-git clone https://github.com/alhasan-ramadan/react-app.git
-cd react-app
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
 npm install
 npm start
 ```
-
-## ✅ Progress
-
-- [x] Set up React environment
-- [ ] Learn JSX & Components
-- [ ] Work with State & Props
-- [ ] Explore Hooks
-- [ ] Implement Routing
-- [ ] Build a small project
-
-## 💡 Notes & Learnings
-
-I'll update this section with key takeaways and insights as I progress.
-
-## 🔗 Useful Resources
-
-- [Official React Docs](https://react.dev/)
-- [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
----
