@@ -3,11 +3,11 @@
   display: flex; /* Elemente nebeneinander anordnen */
   justify-content: center; /* Gleichen Abstand zwischen den Boxen */
   align-items: center; /* Vertikal zentrieren */
-  background-color: black; /* Keine Hintergrundfarbe */
+  background-color: rgba(0, 0, 0, 0); /* Keine Hintergrundfarbe */
   padding: 10px;
   width: 100%;
-  position: relative; /* Stellen Sie sicher, dass die Navbar sich in der richtigen Ebene befindet */
-  z-index: 2; /* Sicherstellen, dass die Navbar im Vordergrund ist */
+  position: fixed; /* Stellen Sie sicher, dass die Navbar sich in der richtigen Ebene befindet */
+  z-index: 0; /* Sicherstellen, dass die Navbar im Vordergrund ist */
 }
 
 /* Einzelne Navigationseinträge (Boxen) */
@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column; /* Icons und Text untereinander */
   align-items: center; /* Horizontal zentrieren */
-  background-color: #00ff737a; /* Dunkler Hintergrund für die Boxen */
+  background-color: #00000035; /* Dunkler Hintergrund für die Boxen */
   padding: 10px;
   border-radius: 15px; /* Abgerundete Ecken */
   width: 100px; /* Feste Breite für jedes Element */

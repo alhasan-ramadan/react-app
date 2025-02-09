@@ -122,8 +122,8 @@ void main() {
     COLOR_RAMP(colors, vUv.x, rampColor);
 
     // Noise-based "height," scaled by amplitude
-    float height = snoise(vec2(vUv.x * 2.0 + uTime * 0.1, uTime * 0.25)) 
-                   * 0.5 
+    float height = snoise(vec2(vUv.x * 2.0 + uTime * 0.1, uTime * 0.25))
+                   * 0.5
                    * uAmplitude;
     height = exp(height);
     height = (vUv.y * 2.0 - height + 0.2);
@@ -134,7 +134,7 @@ void main() {
 `;
 
 export default function Aurora(props: AuroraProps) {
-  const { colorStops = ["#00d8ff", "#7cff67", "#00d8ff"], amplitude = 1.0 } =
+  const { colorStops = ["#00ff00", "#7cff67", "#00d8ff"], amplitude = 1.0 } =
     props;
 
   const propsRef = useRef(props);
