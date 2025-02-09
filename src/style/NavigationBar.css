@@ -23,6 +23,15 @@
   color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Leichter Schatten für die Box */
   margin: 0 5px; /* Abstand zwischen den Boxen */
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.nav-item:hover{
+  cursor: url('../assets/png/pointer.png') 16 16, pointer;
+}
+
+.nav-item:active {
+  cursor: url('../assets/png/pointer_active.png') 16 16, pointer;
 }
 
 /* Styling für die Icons */
@@ -35,4 +44,10 @@
 .nav-item span {
   font-family: Arial, sans-serif; /* Passende Schriftart */
   font-size: 14px;
+
+}
+
+.nav-item:hover {
+  transform: translateY(10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
