@@ -34,7 +34,7 @@ const navigationItems: Props[] = [
     link: "/react-app/pages/certificate-page/CertificatePage",
   },
   {
-    iconUrl: "/react-app/public/business_icon.svg",
+    iconUrl: "/react-app/public/tennis_icon.svg",
     description: "Leizure",
     link: "/react-app/pages/leizure-page/LeizurePage",
   },
