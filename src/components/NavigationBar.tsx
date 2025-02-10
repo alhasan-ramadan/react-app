@@ -11,7 +11,7 @@ const navigationItems: Props[] = [
   {
     iconUrl: "/react-app/public/home_icon.svg", // Absoluter Pfad ab /public
     description: "Home",
-    link: "/",
+    link: "/App",
   },
   {
     iconUrl: "/react-app/public/business_icon.svg",
@@ -34,9 +34,9 @@ const navigationItems: Props[] = [
     link: "/react-app/pages/certificate-page/CertificatePage",
   },
   {
-    iconUrl: "/react-app/public/business_icon.svg",
+    iconUrl: "/react-app/public/tennis_icon.svg",
     description: "Leizure",
-    link: "/react-app/pages/leizure-page/LeizurePage",
+    link: "../pages/leizure-page/LeizurePage",
   },
   {
     iconUrl: "/react-app/public/email_icon.svg",
