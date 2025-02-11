@@ -11,7 +11,7 @@ const navigationItems: Props[] = [
   {
     iconUrl: "/react-app/home_icon.svg", // Absoluter Pfad ab /public
     description: "Home",
-    link: "/",
+    link: "/App",
   },
   {
     iconUrl: "/react-app/business_icon.svg",
