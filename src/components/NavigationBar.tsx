@@ -9,37 +9,37 @@ interface Props {
 
 const navigationItems: Props[] = [
   {
-    iconUrl: "/react-app/public/home_icon.svg", // Absoluter Pfad ab /public
+    iconUrl: "/react-app/home_icon.svg", // Absoluter Pfad ab /public
     description: "Home",
     link: "/App",
   },
   {
-    iconUrl: "/react-app/public/business_icon.svg",
+    iconUrl: "/react-app/business_icon.svg",
     description: "Experience",
     link: "/react-app/pages/certificate-page/ExperiencePage",
   },
   {
-    iconUrl: "/react-app/public/folder_icon.svg",
+    iconUrl: "/react-app/folder_icon.svg",
     description: "Projects",
     link: "/react-app/pages/project-page/ProjectPage",
   },
   {
-    iconUrl: "/react-app/public/gear_icon.svg",
+    iconUrl: "/react-app/gear_icon.svg",
     description: "Technologies",
     link: "/react-app/pages/tech-page/TechPage",
   },
   {
-    iconUrl: "/react-app/public/medal_icon.svg",
+    iconUrl: "/react-app/medal_icon.svg",
     description: "Certificates",
     link: "/react-app/pages/certificate-page/CertificatePage",
   },
   {
-    iconUrl: "/react-app/public/tennis_icon.svg",
-    description: "Leizure",
-    link: "../pages/leizure-page/LeizurePage",
+    iconUrl: "/react-app/tennis_icon.svg",
+    description: "Leisure",
+    link: "/react-app/pages/leisure-page/LeisurePage",
   },
   {
-    iconUrl: "/react-app/public/email_icon.svg",
+    iconUrl: "/react-app/email_icon.svg",
     description: "Contact",
     link: "/react-app/pages/contact-page/ContactPage",
   },
